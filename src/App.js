@@ -9,11 +9,11 @@ function App() {
 
   const showCartHandler = () => {
     setCartIsShown(true);
-  }
+  };
 
   const hideCartHandler = () => {
     setCartIsShown(false);
-  }
+  };
 
   return (
     <Fragment>
@@ -24,6 +24,6 @@ function App() {
       </main>
     </Fragment>
   );
-}
+};
 
 export default App;
